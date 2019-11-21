@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeComi.WebHost", "LeComi.WebHost\LeComi.WebHost.csproj", "{76C517E5-D5F7-4A54-B8E0-C8FAD46707B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeComi.WebHost", "LeComi.WebHost\LeComi.WebHost.csproj", "{76C517E5-D5F7-4A54-B8E0-C8FAD46707B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{858EEC87-E6C9-4C40-B64C-AF343479F20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeComi.Infrastructure", "LeComi.Infrastructure\LeComi.Infrastructure.csproj", "{78DF5434-FEF0-4467-B79C-17420DFB8478}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{5DD1D123-43B5-4FBE-91AF-CF6DC5DF737A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeComi.Module.Core", "LeComi.Module.Core\LeComi.Module.Core.csproj", "{3AAA9A8E-5466-4145-B659-880B48926031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeComi.Module.Catalog", "LeComi.Module.Catalog\LeComi.Module.Catalog.csproj", "{9C226D53-3F56-4927-B307-513273015B94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +25,28 @@ Global
 		{76C517E5-D5F7-4A54-B8E0-C8FAD46707B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76C517E5-D5F7-4A54-B8E0-C8FAD46707B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76C517E5-D5F7-4A54-B8E0-C8FAD46707B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DF5434-FEF0-4467-B79C-17420DFB8478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DF5434-FEF0-4467-B79C-17420DFB8478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DF5434-FEF0-4467-B79C-17420DFB8478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DF5434-FEF0-4467-B79C-17420DFB8478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAA9A8E-5466-4145-B659-880B48926031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAA9A8E-5466-4145-B659-880B48926031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAA9A8E-5466-4145-B659-880B48926031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAA9A8E-5466-4145-B659-880B48926031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C226D53-3F56-4927-B307-513273015B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C226D53-3F56-4927-B307-513273015B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C226D53-3F56-4927-B307-513273015B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C226D53-3F56-4927-B307-513273015B94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{76C517E5-D5F7-4A54-B8E0-C8FAD46707B2} = {858EEC87-E6C9-4C40-B64C-AF343479F20B}
+		{78DF5434-FEF0-4467-B79C-17420DFB8478} = {858EEC87-E6C9-4C40-B64C-AF343479F20B}
+		{5DD1D123-43B5-4FBE-91AF-CF6DC5DF737A} = {858EEC87-E6C9-4C40-B64C-AF343479F20B}
+		{3AAA9A8E-5466-4145-B659-880B48926031} = {5DD1D123-43B5-4FBE-91AF-CF6DC5DF737A}
+		{9C226D53-3F56-4927-B307-513273015B94} = {5DD1D123-43B5-4FBE-91AF-CF6DC5DF737A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECFA0281-691D-4C58-9F42-CABF1C58EA35}
